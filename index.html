@@ -35,12 +35,18 @@
             </div>
 
             <div class="card-footer text-right py-2">
-              <div class="card-text text-muted">$ <span>30</span></div>
+              <div class="card-text text-muted">
+                $ <span data-drink-price>30</span>
+              </div>
             </div>
           </div>
           <!-- checkout button -->
           <div class="text-right">
-            <button class="btn btn-light" style="min-width: 120px">
+            <button
+              class="btn btn-light"
+              style="min-width: 120px"
+              data-alpha-pos="checkout"
+            >
               Checkout
             </button>
           </div>
@@ -190,5 +196,6 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <script src="./main.js"></script>
   </body>
 </html>
