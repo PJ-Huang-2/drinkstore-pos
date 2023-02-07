@@ -10,3 +10,5 @@ Additionally, there are two constructor functions:
 
 AlphaPos: This constructor defines several methods for the AlphaPos system, including getCheckedValue, addDrink, deleteDrink, and checkout.
 Drink: This constructor creates a drink instance with the specified name, sugar, and ice options.
+
+<h4>Please <a href="https://pj-huang-2.github.io/drinkstore-pos/">Check this out</a></h4>
